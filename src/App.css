@@ -22,16 +22,73 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+}
+
+.App-table {
+  background-image: url(./open-graph-image-glovo.jpeg);
+  background-size: 100% 100%;
+  border-radius: 10%;
+  box-shadow: 10px 10px 100px rgb(20, 144, 4);
+  margin: 0 auto;
+  transition: all;
+  /* width: 55%;
+  height: 60vh; */
+
+  /* border: red solid 4px; */
+}
+
+.table-form {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 22vh auto;
+  white-space: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+
+
+
+
+
+
+}
+
+.table-form label {
+  font-size: 4.4vh;
+  font-weight: 900;
+  font-variant: small-caps;
+
+
+}
+
+#sub {
+  display: none;
+}
+
+.table-form input {
+
+  background-color: rgba(255, 255, 255, 0.7);
+
+
+  width: 15%;
+  height: 32px;
+  white-space: 1px;
+  color: green;
+  font-weight: 900;
+  font-size: 3vh;
+
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
